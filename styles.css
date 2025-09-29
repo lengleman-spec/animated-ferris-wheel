@@ -17,11 +17,24 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  /*transform-origin offsets the origin point from 0% from the left and 0% from the top, 
+  /* transform-origin offsets the origin point from 0% from the left and 0% from the top, 
  setting to the top left corner of the element */
   transform-origin: 0% 0%;
 }
 
+/* Targets 2nd, 3rd, 4th, and 5th .lines to set new transform property */
 .line:nth-of-type(2) {
   transform: rotate(60deg);
+}
+.line:nth-of-type(3) {
+  transform: rotate(120deg);
+}
+.line:nth-of-type(4) {
+  transform: rotate(180deg);
+}
+.line:nth-of-type(5) {
+  transform: rotate(240deg);
+}
+.line:nth-of-type(6) {
+  transform: rotate(300deg);
 }
