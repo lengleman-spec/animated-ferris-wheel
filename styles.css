@@ -17,4 +17,11 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  /*transform-origin offsets the origin point from 0% from the left and 0% from the top, 
+ setting to the top left corner of the element */
+  transform-origin: 0% 0%;
+}
+
+.line:nth-of-type(2) {
+  transform: rotate(60deg);
 }
