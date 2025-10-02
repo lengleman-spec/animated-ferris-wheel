@@ -8,6 +8,11 @@
   width: 55vw;
   max-height: 500px;
   max-width: 500px;
+
+  /* Must set animation-name to the same value as what your
+  @keyframes is named */
+  animation-name: wheel;
+  animation-duration: 10s;
 }
 
 .line {
