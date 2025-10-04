@@ -96,6 +96,16 @@
   0% {
     transform: rotate(0deg);
   }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    /* changes background color halfway thru animation */
+    background-color: purple;
+  }
+  75% {
+    background-color: yellow;
+  }
   100% {
     transform: rotate(-360deg);
   }
