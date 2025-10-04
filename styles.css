@@ -52,7 +52,7 @@
   height: 20%;
   position: absolute;
   border: 2px solid;
-
+  animation: cabins 10s linear infinite;
   transform-origin: 50% 0%; /* places it in the middle top edge of the element */
 }
 
@@ -89,5 +89,14 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes cabins {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
   }
 }
